@@ -8,6 +8,7 @@ from forms import ContactForm
 
 
 def ajax(request,):
+    """Ajax contact view"""
     if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
@@ -23,8 +24,9 @@ def ajax(request,):
     else:
         raise Http404
 
-def contact(request):
 
+def contact(request):
+    """Default contact view"""
     if not request.POST:
         form = ContactForm()
     else:

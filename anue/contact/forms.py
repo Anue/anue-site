@@ -16,9 +16,11 @@ class ContactForm(forms.Form):
     )
     honeypot = forms.CharField(label=_(u'Honeypot (do not fill)'), required=False)
 
+
     def clean_honeypot(self):
         if self.cleaned_data.get('honeypot'):
             self._errors['honeypot'] = ErrorList([_(u"Don't fill this field!")])
+
 
     def save(self, fail_silently=False):
         """Build and send the email message."""
