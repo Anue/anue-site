@@ -229,17 +229,45 @@ ul.errorlist ul {
 }
 
 #social_bookmarks li a {
-    filter:alpha(opacity=50);
-    -moz-opacity:0.5;
-    -khtml-opacity: 0.5;
-    opacity: 0.5;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-indent: -2000px;
+    overflow: hidden;
+    background-image: url(../images/buttons-header.png);
+    Background-repeat: no-repeat;
 }
 
-#social_bookmarks li a:hover {
-    filter:alpha(opacity=1);
-    -moz-opacity:1;
-    -khtml-opacity:1;
-    opacity:1;
+#social_bookmarks li a.linkedin {
+    background-position: 0 0;
+}
+
+#social_bookmarks li a.linkedin:hover {
+    background-position: -40px 0;
+}
+
+#social_bookmarks li a.facebook {
+    background-position: 0 -40px;
+}
+
+#social_bookmarks li a.facebook:hover {
+    background-position: -40px -40px;
+}
+
+#social_bookmarks li a.twitter {
+    background-position: 0 -80px;
+}
+
+#social_bookmarks li a.twitter:hover {
+    background-position: -40px -80px;
+}
+
+#social_bookmarks li a.contact {
+    background-position: 0 -120px;
+}
+
+#social_bookmarks li a.contact:hover {
+    background-position: -40px -120px;
 }
 
 #footer-container {
