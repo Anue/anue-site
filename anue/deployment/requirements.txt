@@ -1,7 +1,10 @@
-django>=1.2
+django
 PIL
 django-extensions
 fabric
 werkzeug
-django-compress
-
+django_compressor
+BeautifulSoup<=4.0
+slimit
+html5lib
+cssmin
