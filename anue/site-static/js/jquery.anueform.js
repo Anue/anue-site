@@ -26,7 +26,9 @@
             baseZ: 99999,
             theme: true,
             title: 'Sending Data',
-            message: 'Please wait <img src="/media/images/ajax-black.gif" alt="loading..." />',
+            message: 'Please wait <img src="' +
+                settings.STATIC_URL +
+                'images/ajax-black.gif" alt="loading..." />',
 	    themedCSS: {
 		width:	'10%',
 		top:	'40%',

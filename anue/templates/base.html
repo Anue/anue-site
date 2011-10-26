@@ -14,6 +14,12 @@
     {% endcompress %}
     <!--[if lt IE 8]><link rel="stylesheet" href="{{ STATIC_URL }}css/ie.css" type="text/css" media="screen, projection" /><![endif]-->
     {% compress js %}
+    <script type="text/javascript">
+      settings = {
+          MEDIA_URL: "{{ MEDIA_URL|escapejs }}",
+          STATIC_URL: "{{ STATIC_URL|escapejs }}"
+      }
+    </script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.4.2.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.scrollTo-1.4.2.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.blockUI.js"></script>
