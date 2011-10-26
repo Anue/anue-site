@@ -1,5 +1,6 @@
 from django.conf.urls.defaults import *
 from django.conf import settings
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from contact.forms import ContactForm
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
@@ -10,6 +11,7 @@ if settings.DEBUG:
                            (r'^media/(?P<path>.*)$',
                             'django.views.static.serve',
                             {'document_root': settings.MEDIA_ROOT}))
+    urlpatterns += staticfiles_urlpatterns()
 else:
     urlpatterns = patterns("")
 
