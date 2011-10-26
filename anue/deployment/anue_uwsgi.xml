@@ -1,8 +1,8 @@
 <uwsgi>
   <harakiri>10</harakiri>
   <processes>1</processes>
-  <pythonpath>/home/fabian/.virtualenvs/anue/anue/</pythonpath>
-  <pythonpath>/home/fabian/.virtualenvs/anue/</pythonpath>
+  <pythonpath>{{ path-to-root }}</pythonpath>
+  <pythonpath>{{ path-to-root }}anue/</pythonpath>
   <app mountpoint="/">
     <script>anue_uwsgi</script>
   </app>
