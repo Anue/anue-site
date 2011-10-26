@@ -147,23 +147,27 @@ ul.errorlist ul {
     background-position:bottom center;
 }
 
+h2.section-title {
+    background-image:url(../images/icons.png);
+    background-repeat: no-repeat;
+}
+
 #section-about h2.section-title {
-    background-image:url(../images/icon-people.png);
+    background-position: 0 0;
 }
 
 #section-services h2.section-title {
-    background-image:url(../images/icon-tool.png);
+    background-position: 0 -96px;
 }
 
 #section-contact h2.section-title {
-    background-image:url(../images/icon-mail.png);
+    background-position: 0 -144px;
 }
 
 #section-404 h2.section-title,
 #section-500 h2.section-title {
-    background-image:url(../images/icon-error.png);
+    background-position: 0 -192px;
 }
-
 
 #header {
     width:100%;
