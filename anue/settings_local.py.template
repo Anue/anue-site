@@ -1,0 +1,37 @@
+import os.path
+import random
+import string
+
+
+PROJECT_ROOT = os.path.realpath(os.path.dirname(__file__))
+
+# Logic to generate a unique key for all setups, you should just
+# remove everything here and hardcode a handmade generated SECRET_KEY
+# but this is put in place in case you are lazy enough not to do it.
+SECRET_FILE = 'secret.txt'
+try:
+    secret_file = open(SECRET_FILE)
+except IOError:
+    secret_file = open(SECRET_FILE, 'w')
+    key = ''.join(random.choice(string.printable) for i in xrange(50))
+    secret_file.write(key)
+else:
+    with secret_file:
+        SECRET_KEY = secret_file.read().strip()
+
+ADMINS = (
+    # ('Your Name', 'your_email@example.com'),
+)
+
+MANAGERS = ADMINS
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'anue.db',
+        'USER': '',
+        'PASSWORD': '',                       # Not used with sqlite3.
+        'HOST': '',                           # Set to empty string for localhost. Not used with sqlite3.
+        'PORT': '',                           # Set to empty string for default. Not used with sqlite3.
+    }
+}
