@@ -9,3 +9,4 @@
 .ropeproject
 settings_local.py
 .dir-locals
+secret.txt
