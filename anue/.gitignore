@@ -10,3 +10,5 @@
 settings_local.py
 .dir-locals
 secret.txt
+media/
+static/
