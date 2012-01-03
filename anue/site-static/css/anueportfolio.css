@@ -1,0 +1,39 @@
+#portfolio-clients {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    height: 300px;
+    width: 410;
+    margin-right: -20px;
+}
+
+#portfolio-clients li {
+    list-style-type: none;
+}
+
+#portfolio-navigation {
+    margin: -8px 0 0 0;
+    padding-left: 0;
+    position: relative;
+    top: 146px;
+}
+
+#portfolio-navigation li {
+    float: left;
+    list-style-type: none;
+    margin-right: 8px;
+}
+
+#portfolio-navigation li a {
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: url(../images/portfolio-dots.png) no-repeat;
+}
+
+#portfolio-navigation li a.selected {
+    background-position: -8px 0;
+}

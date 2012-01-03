@@ -131,6 +131,7 @@ INSTALLED_APPS = (
 
     # apps
     'contact',
+    'portfolio'
 )
 
 # A sample logging configuration. The only tangible logging

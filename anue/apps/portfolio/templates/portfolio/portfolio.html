@@ -1,0 +1,13 @@
+<ul id="portfolio-clients">
+  {% for client in clients %}
+  <li id="portfolio-client-{{ client.pk }}">
+    <div class="client-logo">
+      <a href="{{ client.url|default:'#' }}" class="client-logo-link">
+        <img src="{{ MEDIA_URL }}{{ client.logo }}" class="client-logo-image" alt="{{ client.name }}" />
+      </a>
+    </div>
+    <h3 class="client-name">{{ client.name }}</h3>
+    <p class="client-description">{{ client.description }}</p>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,3 +1,4 @@
+{% load portfoliotags %}
 <div id="section-about" class="section container clearfix">
   <div class="span-22 prepend-1 append-1 last">
     <h2 class="section-title">about</h2>
@@ -20,6 +21,8 @@
     </p>
   </div>
   <div class="span-10 prepend-1 append-1 last">
-    <img src="{{ STATIC_URL }}images/machine.png" class="machine" alt="Anue powered" />
+    <div id="portfolio-container">
+      {% render_portfolio %}
+    </div>
   </div>
 </div>

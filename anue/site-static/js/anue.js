@@ -40,6 +40,9 @@ $(document).ready(function() {
             return false;
         }
     });
+    $("#portfolio-container").anueportfolio({
+        'interval-timeout': 6000
+    });
     var form = $("#contact-form");
     form.attr('action', '/contact/ajax/');
     form.anueForm();
