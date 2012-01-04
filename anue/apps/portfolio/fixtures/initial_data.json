@@ -6,7 +6,7 @@
             "url": "", 
             "logo": "portfolio/ditchcity.gif", 
             "name": "DitchCity", 
-            "description": "Use cutting-edge location technology and editorial curation to bring more relevant travel deals to consumers in every city worldwide, and distribute these deals effectively in all channels--website, email, mobile and table.<br />\r\nWe provided DitchCity with the entire development team as well as the sysadmin team for server setup and deployment automation."
+            "description": "Ditchcity.com uses cutting-edge location technology and editorial curation to bring more relevant travel deals to consumers in every city worldwide.\r\nWe provide DitchCity with the entire development team as well as the sysadmin team for server setup and deployment automation."
         }
     }, 
     {
@@ -16,7 +16,7 @@
             "url": "http://www.epicstep.com/", 
             "logo": "portfolio/epicstep.gif", 
             "name": "EpicStep", 
-            "description": "EpicStep is a platform for creating and funding billboards for the messages you care about. It\u2019s a place where like-minded people unite to make their voices heard via giant billboards for all to see. Billboards are expensive. By splitting the cost amongst multiple supporters, individuals can contribute what they can afford and still make a huge impact.<br />\r\nWe are currently providing the Django development team for ongoing support and adding new functionalities to the site."
+            "description": "EpicStep is a platform for creating and funding billboards for the messages you care about. It\u2019s a place where like-minded people unite to make their voices heard via giant billboards for all to see.\r\nWe are providing the Django development for ongoing support and adding new functionalities to the site."
         }
     }, 
     {
@@ -24,9 +24,9 @@
         "model": "portfolio.client", 
         "fields": {
             "url": "http://www.lognllc.com/", 
-            "logo": "portfolio/logn_logo.gif", 
+            "logo": "portfolio/logn.gif", 
             "name": "LogN", 
-            "description": "LogN is a consulting firm pationate about their work. They provide software solutions based on cutting edge technologies. They specialize in Social Media, Gaming and Education Technology. <br />\r\nWe have built several projects for them using Django and Pylons."
+            "description": "LogN is a consulting firm pationate about their work. They provide software solutions based on cutting edge technologies. They specialize in Social Media, Gaming and Education Technology. \r\nWe provide outsourcing for them and have built several projects using Django and Pylons."
         }
     }, 
     {
@@ -36,7 +36,7 @@
             "url": "http://www.munchly.com/", 
             "logo": "portfolio/munchly.gif", 
             "name": "Munchly", 
-            "description": "Munchly allows people to purchase food from their mobile phones.\r\n<br />\r\nWe provided Munchly with the entire development team. Also, we helped them with most of their sysadmin related tasks."
+            "description": "Munchly allows people to purchase food from their mobile phones.\r\nWe provided Munchly with the entire development team. Also, we helped them with most of their sysadmin related tasks."
         }
     }, 
     {
@@ -46,7 +46,7 @@
             "url": "http://www.myfreenight.com/", 
             "logo": "portfolio/myfreenight.gif", 
             "name": "MyFreeNight", 
-            "description": "MyFreeNight is a social site about night life around the world, but specialized to your home town. <br />\r\nWe have provided MyFreeNight with the entire development team and a sysadmin for deployment automation."
+            "description": "MyFreeNight is a social site about night life around the world, but specialized to your home town. \r\nWe have provided MyFreeNight with the entire development team and a sysadmin for deployment automation."
         }
     }, 
     {
@@ -56,7 +56,7 @@
             "url": "http://www.nanoagenda.com/", 
             "logo": "portfolio/nanoagenda.gif", 
             "name": "Nanoagenda", 
-            "description": "Nanoagenda is a simple and intuitive online scheduling system. It offers not only the classic scheduling tools, but features reception tools to increase client interaction, allowing to request appointments at any time, any day.<br />\r\nWe provided Nanoagenda with the entire development team. We also provided them with our sysadmin skills for server setup and deployment outomation."
+            "description": "Nanoagenda is a simple and intuitive online scheduling system. It offers not only the classic scheduling tools, but features reception tools to increase client interaction, allowing to request appointments at any time, any day.\r\nWe provided the entire development team and sysadmin skills for server setup and deployment automation."
         }
     }, 
     {
@@ -66,7 +66,7 @@
             "url": "http://www.printedpiece.com/", 
             "logo": "portfolio/printedpiece.gif", 
             "name": "PrintedPiece", 
-            "description": "PrintedPiece is a full, unique and creative community-driven platform, that connects designers and businesses around the world in the print industry.<br />\r\nWe have provided Django development for several iterations of enhancements to their site."
+            "description": "PrintedPiece is a full, unique and creative community-driven platform, that connects designers and businesses around the world in the print industry.\r\nWe have provided Django development for several iterations of enhancements to their site."
         }
     }, 
     {
@@ -76,7 +76,7 @@
             "url": "http://www.savored.com/", 
             "logo": "portfolio/savored.gif", 
             "name": "Savored", 
-            "description": "Savored brings you access to insider pricing with the most popular restaurants across the United States. Savored make the dining experiences of their members more convenient and more affordable, and they do so by partnering with the finest restaurants. <br />\r\nWe provided Django development for Savored."
+            "description": "Savored brings you access to insider pricing with the most popular restaurants across the United States. Savored make the dining experiences of their members more convenient and more affordable, and they do so by partnering with the finest restaurants. \r\nWe provided Django development for Savored."
         }
     }, 
     {
@@ -86,7 +86,7 @@
             "url": "http://www.zehnergroup.com/", 
             "logo": "portfolio/zg.gif", 
             "name": "ZehnerGroup", 
-            "description": "ZehnerGroup is an interactive agency headquartered in Los Angeles. They are passionate about web development and work to deliver the best solutions possible.<br />\r\nWe have built a handful of Django projects for them."
+            "description": "ZehnerGroup is an interactive agency headquartered in Los Angeles. They are passionate about web development and work to deliver the best solutions possible.\r\nWe have built a handful of Django projects for them."
         }
     }
 ]
