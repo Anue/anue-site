@@ -158,12 +158,13 @@ LOGGING = {
     }
 }
 
+COMPRESS_YUI_BINARY = 'java -jar /usr/share/java/yuicompressor-2.4.6.jar'
 COMPRESS_CSS_FILTERS = (
     "compressor.filters.css_default.CssAbsoluteFilter",
     "compressor.filters.cssmin.CSSMinFilter"
 )
 COMPRESS_JS_FILTERS = (
-    "compressor.filters.jsmin.SlimItFilter",
+   "compressor.filters.jsmin.JSMinFilter",
 )
 
 try:
