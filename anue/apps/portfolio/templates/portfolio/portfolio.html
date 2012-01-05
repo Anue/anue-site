@@ -7,7 +7,7 @@
       </a>
     </div>
     <h3 class="client-name">{{ client.name }}</h3>
-    <p class="client-description">{{ client.description|safe }}</p>
+    <p class="client-description">{{ client.description|linebreaksbr }}</p>
   </li>
   {% endfor %}
 </ul>

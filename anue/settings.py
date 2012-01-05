@@ -157,6 +157,14 @@ LOGGING = {
     }
 }
 
+COMPRESS_CSS_FILTERS = (
+    "compressor.filters.css_default.CssAbsoluteFilter",
+    "compressor.filters.cssmin.CSSMinFilter"
+)
+COMPRESS_JS_FILTERS = (
+    "compressor.filters.jsmin.SlimItFilter",
+)
+
 try:
     from settings_local import *
 except ImportError:
