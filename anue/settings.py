@@ -131,7 +131,8 @@ INSTALLED_APPS = (
 
     # apps
     'contact',
-    'portfolio'
+    'portfolio',
+    'anuetracker',
 )
 
 # A sample logging configuration. The only tangible logging
