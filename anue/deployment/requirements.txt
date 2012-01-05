@@ -8,3 +8,4 @@ BeautifulSoup<=4.0
 slimit
 html5lib
 cssmin
+-e git+ssh://git@anue.biz/anuetracker#egg=anuetracker
